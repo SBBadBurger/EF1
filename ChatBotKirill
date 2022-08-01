@@ -1,0 +1,11 @@
+$result = restCommand('im.message.add', Array(
+
+    'DIALOG_ID' => 'chat13',
+    'MESSAGE' => 'Текст сообщения',
+    'SYSTEM' => 'N',
+    'ATTACH' => '',
+    'URL_PREVIEW' => 'Y',
+    'KEYBOARD' => '',
+    'MENU' => '',
+
+), $_REQUEST["auth"]);
